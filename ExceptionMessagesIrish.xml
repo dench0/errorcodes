@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--*******************************************************
+ * Copyright (c) 2013 - 2020 TollPlus, Inc. 
+ *
+ * All Rights Reserved.
+ *
+ * This source code is proprietary property of TollPlus, Inc., and is protected by exclusive licensing policy. 
+ * The content of this file must not be modified, republished, copied or reproduced by anyone without explicit 
+ * written permission by TollPlus, Inc.
+ *
+ * Any violations will be subject to penalties to the full extent of the law under the provisions of the license policy.
+*******************************************************-->
+<exceptions>
+
+  <Exception ErrorCode="TBOS001" HttpStatusCode="999" Message="Tharla earráid anaithnid sa Chóras agus d’iarratas á phróiseáil. Déan teagmháil le Tacaíocht Deasc Chabhrach ag X-XXX-XXX-XXXX le Earráid Token ID XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXXX." LogEx="false" LogType="All"></Exception>
+  <Exception ErrorCode="TBOS450" HttpStatusCode="998" Message="Tharla earráid anaithnid sa Chóras agus d’iarratas á phróiseáil" LogEx="false" LogType="LogTextFile"></Exception>
+  <Exception ErrorCode="ACT001" HttpStatusCode="999" Message="Earráid agus gníomhaíochtaí á stóráil" LogEx="false" LogType="LogTextFile"></Exception>
+  <Exception ErrorCode="SEC001" HttpStatusCode="999" Message="Tá ainm úsáideora ann cheana" LogEx="false"  LogType="LogTextFile"></Exception>
+  <Exception ErrorCode="SEC002" HttpStatusCode="999" Message="Tá do Chuntas # faoi ghlas. Déan teagmháil leis an ionad seirbhíse do chustaiméirí" LogEx="false" LogType="LogTextFile"></Exception>
+  <Exception ErrorCode="SEC003" HttpStatusCode="999" Message="Earráid agus an t-ainm úsáideora á sheoladh, Déan iarracht arís" LogEx="false" LogType="LogTextFile"></Exception>
+  <Exception ErrorCode="SEC004" HttpStatusCode="999" Message="Ní raibh baint ag aon ainm úsáideora leis na sonraí a cuireadh ar fáil" LogEx="false" LogType="LogTextFile"></Exception>
+  <Exception ErrorCode="SEC005" HttpStatusCode="999" Message="Ní hionann an fhaisnéis a chuirtear ar fáil agus ár dtaifid, Athiontráil nó roghnaigh ceist eile le do fhreagra a sholáthar" LogEx="false" LogType="LogTextFile"></Exception>
+</exceptions>

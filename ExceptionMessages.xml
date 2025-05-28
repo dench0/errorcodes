@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--*******************************************************
+ * Copyright (c) 2013 - 2020 TollPlus, Inc. 
+ *
+ * All Rights Reserved.
+ *
+ * This source code is proprietary property of TollPlus, Inc., and is protected by exclusive licensing policy. 
+ * The content of this file must not be modified, republished, copied or reproduced by anyone without explicit 
+ * written permission by TollPlus, Inc.
+ *
+ * Any violations will be subject to penalties to the full extent of the law under the provisions of the license policy.
+*******************************************************-->
+<exceptions>
+
+	<Exception ErrorCode="TBOS001" HttpStatusCode="999" Message="An unknown error has occurred in System while processing your request. Contact Help Desk Support at X-XXX-XXX-XXXX with Error Token ID XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX." LogEx="false" LogType="All"></Exception>
+	<Exception ErrorCode="TBOS450" HttpStatusCode="998" Message="An unknown error has occurred in System while processing your request" LogEx="false" LogType="LogTextFile"></Exception>
+	<Exception ErrorCode="ACT001" HttpStatusCode="999" Message="Error while storing activities" LogEx="false" LogType="LogTextFile"></Exception>
+	<Exception ErrorCode="TBOS002" HttpStatusCode="999" Message="An unknown error has occurred in System while processing your request. Please try after some time." LogEx="false" LogType="LogTextFile"></Exception>
+	<Exception ErrorCode="SEC001" HttpStatusCode="999" Message="Username already exists" LogEx="false"  LogType="LogTextFile"></Exception>
+	<Exception ErrorCode="SEC002" HttpStatusCode="999" Message="Your Account # has been locked. Contact customer service centre" LogEx="false" LogType="LogTextFile"></Exception>
+	<Exception ErrorCode="SEC003" HttpStatusCode="999" Message="Error while sending the Username, Try again" LogEx="false" LogType="LogTextFile"></Exception>
+	<Exception ErrorCode="SEC004" HttpStatusCode="999" Message="No Username was associated with provided details" LogEx="false" LogType="LogTextFile"></Exception>
+	<Exception ErrorCode="SEC005" HttpStatusCode="999" Message="The information provided does not match with our records, Please re-enter or choose another question to provide your response" LogEx="false" LogType="LogTextFile"></Exception>
+</exceptions>
+
